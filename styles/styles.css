@@ -1,0 +1,31 @@
+
+body {
+    width: 80%;
+    padding: 5%;
+    background-color: rgb(255, 255, 2545);
+}
+
+header, footer {
+    display: flex;
+    border-style: solid;
+    border-color: black;
+    background-color: rgb(194, 255, 226);
+}
+
+footer {
+    display: block;
+    text-align: center;
+}
+
+header div, img {
+    flex-direction: row;
+    text-align: center;
+}
+
+header img {
+    width: 25%;
+}
+
+header h1 {
+    margin: 2%;
+}
