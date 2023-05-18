@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans&family=Playfair+Display&display=swap');
+
+* {
+    font-family: 'Instrument Sans', Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: auto;
+    padding: 2%;
+    width: 80%;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Playfair Display','Times New Roman', Times, serif;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+}
+
+header a {
+    border-style: solid;
+    border-width: 2px;
+    padding: 1%;
+    text-align: center;
+}
