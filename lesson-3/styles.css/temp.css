@@ -55,3 +55,18 @@ main {
     padding: 50px;
     text-align: center;
 }
+
+/* Colors */
+
+.main-color-1 {
+    background-color: white;
+}
+
+.main-color-2 {
+    background-color: #2E2B40;
+    color: white;
+}
+
+.accent-color-1 {
+    background-color: #C68335;
+}
