@@ -1,7 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Instrument+Sans&family=Playfair+Display&display=swap');
 
+
 * {
     font-family: 'Instrument Sans', Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --main-color-1: white;
+    --main-color-1-rgba: rgba(255, 255, 255, .75);
+    --main-color-2: #2E2B40;
+    --accent-color-1: #C68335;
 }
 
 body {
@@ -9,41 +17,127 @@ body {
     margin: auto;
     padding: 2%;
     width: 80%;
+    background-image: url("../images/background.jpg");
+    background-size: auto;
+}
+
+header, footer {
+    background-color: var(--main-color-2);
+    color: white;
 }
 
 footer {
     height: 15%;
+    padding: 1vw;
+}
+
+footer img {
+    float: left;
 }
 
 h1, h2, h3, h4 {
     font-family: 'Playfair Display','Times New Roman', Times, serif;
 }
 
+h1 {    
+    margin: auto;
+    text-align: center;
+}
+
 header {
     display: flex;
     flex-wrap: wrap;
     height: 15%;
-    gap: 5%;
     justify-content: center;
     margin: auto;
     width: 100%;
 }
 
-header a {
-    border-style: solid;
-    border-width: 2px;
-    padding: 1%;
+main {
+    height: 100%;
+    background-color: var(--main-color-1-rgba);
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+#hamburgerBtn {
+    background-color: rgb(204, 204, 204);
+    border: none;
+    font-size: 2em;
+    margin: auto;
+    width: 50px;
+}
+
+nav ul {
+    display: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+nav ul.open {
+    display: block;
+}
+
+nav ul li {
+    width: 100%;
     text-align: center;
 }
 
-main {
-    height: 100%;
+nav ul li a {
+    border-top: 1px solid #c68335;;
+    color: white;
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+}
+
+nav ul li.active a {
+    background-color: #c68335;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0,0,0,.5);
+}
+
+.footer-text {
+    text-align: center;
+}
+
+.header-and-date {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header-and-date em {
+    font-size: 1.5em;
+}
+
+.join {
+    display: none;
 }
 
 .logo {
-    width: 100px;
+    max-width: 175px;
+    width: 100%;
 }
 
+.logo-link {
+    text-align: center;
+    text-decoration: none;
+    width: 25%;
+}
+
+.p-inline {
+    display: inline;
+}
 .placeholder {
     background-color: lightgrey;
     border-style: solid;
@@ -54,4 +148,41 @@ main {
     margin: 2%;
     padding: 50px;
     text-align: center;
+}
+
+.social-media-link  {
+    min-width: 40px;
+    max-width: 75px;
+    padding: 4%;
+    width: 30%;
+}
+
+.social-media-link img {
+    min-width: 40px;
+    max-width: 75px;
+    width: 100%;
+}
+
+.social-media-links-wrapper {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 20%;
+}
+
+.spotlight {
+    border: 1px solid black;
+    padding: 1vw;
+    width: 50%;
+}
+
+.spotlight-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#todays-date {
+    padding: 1vw;
 }
