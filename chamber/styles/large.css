@@ -2,8 +2,8 @@
     
     main {
         display: grid;
-        grid-template-rows: repeat(3, 1fr);
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: auto;
+        grid-template-columns: auto;
     }
     
     nav button {display: none;}
@@ -29,9 +29,14 @@
         grid-column: 2/4 ;
     }
     
-    .spotlight {
-        width:auto;
+    
+    .spotlight-1, .spotlight-2 {
+        width: auto;
         height: auto;
+    }
+
+    .spotlight-2 {
+        display: block;
     }
 
     .spotlight-wrapper {
@@ -40,7 +45,6 @@
     }
     
     .join {
-        display: block;
         grid-row: 3/4;
         grid-column: 1/2;
     }
