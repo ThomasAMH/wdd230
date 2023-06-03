@@ -1,9 +1,11 @@
 @media only screen and (min-width: 35rem) {
     
-
-    .logo-link {
-        text-decoration: none;
-        width: 250px;
+    body {
+        height: 100%;
+        margin: auto;
+        padding: 2%;
+        width: 80%;
+        background-image: url("../images/medium/background-med.jpg");
     }
 
     main {
@@ -24,6 +26,10 @@
     nav ul li a {
         border: none;
         border-right: 1px solid #c68335;
+    }
+    .logo-link {
+        text-decoration: none;
+        width: 250px;
     }
 
     .hero {

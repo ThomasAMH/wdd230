@@ -17,8 +17,7 @@ body {
     margin: auto;
     padding: 2%;
     width: 80%;
-    background-image: url("../images/background.jpg");
-    background-size: auto;
+    background-image: url("../images/small/background-small.jpg");
 }
 
 header, footer {
@@ -147,9 +146,15 @@ nav ul li a:hover {
 }
 
 .logo-link {
+    height: 50%;
     text-align: center;
     text-decoration: none;
     width: 25%;
+}
+
+.logo-link img {
+    max-width: 200px;
+    width: 100%;
 }
 
 .news img {
