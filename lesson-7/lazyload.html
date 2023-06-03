@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Lazy Loading</title>
+        <meta name="description" content="For practicing lazy loading">
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" href="./styles/styles.css">
+    </head>
+
+    <body>
+        <h1>Manditory H1</h1>
+        <em>Images used with love from <a href="https://http.cat/">http.cat</a></em>
+        <section class="image-stack">
+            <img loading="lazy" class="sized-image" src="images/placeholder.jpg" data-src="./images/200.jpg" alt="HTTP status 200 reflected by a cat">
+            <img loading="lazy" class="sized-image" src="images/placeholder.jpg" data-src="./images/204.jpg" alt="HTTP status 204 reflected by a cat">
+            <img loading="lazy" class="sized-image" src="images/placeholder.jpg" data-src="./images/301.jpg" alt="HTTP status 301 reflected by a cat">
+            <img loading="lazy" class="sized-image" src="images/placeholder.jpg" data-src="./images/401.jpg" alt="HTTP status 401 reflected by a cat">
+            <img loading="lazy" class="sized-image" src="images/placeholder.jpg" data-src="./images/402.jpg" alt="HTTP status 402 reflected by a cat">
+            <img loading="lazy" class="sized-image" src="images/placeholder.jpg" data-src="./images/403.jpg" alt="HTTP status 403 reflected by a cat">
+        </section>
+    </body>
+    <script src="./scripts/app.js"></script>
+</html>
+
+    <!-- This is an HTML comment -->

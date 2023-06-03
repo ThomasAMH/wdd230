@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+}
+.image-stack {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.sized-image {
+    margin: 2%;
+    width: 300px;
+    height: 400px;
+}
+
+.sized-image img[data-src] {
+    filter: blur(0.2em);
+}
+  
+.sized-image img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
