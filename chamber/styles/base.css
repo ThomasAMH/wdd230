@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Instrument+Sans&family=Playfair+Display&display=swap');
 
-
 * {
     font-family: 'Instrument Sans', Arial, Helvetica, sans-serif;
 }
@@ -248,4 +247,35 @@ nav ul li a:hover {
 
 #todays-date {
     padding: 1vw;
+}
+
+/* Discover Page Classes */
+
+.discover-main {
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    text-align: center;
+}
+
+.discover-image-wrapper {
+    align-items: center;
+    border: solid 1px #2E2B40;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding: 5px;
+    width: 100%;
+}
+
+.discover-image-wrapper p {
+    font-size: large;
+    padding-left: 3%;
+}
+
+.discover-image-wrapper img {
+    border-style: solid;
+    border-color: var(--main-color-2);
+    border-width: 2px;
+    width: 80%;
 }

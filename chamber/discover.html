@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Budapest Chamber of Commerce - Home</title>
+    <meta name="description" content="The homepage for the Budapest Chamber of Commerce">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="shortcut icon" href="./images/favicon.ico">
+    <link rel="stylesheet" href="./styles/base.css">
+    <link rel="stylesheet" href="./styles/medium.css">
+    <link rel="stylesheet" href="./styles/large.css">
+</head>
+
+<body>
+    <header>
+        <a class="logo-link" href=""><img src="./images/chamber-of-commerce.webp" alt="seal of the Budapest Chamber of Commerce"></a>
+        <div class="header-and-date">
+            <h1>Budapest Chamber of Commerce</h1>
+            <em id="todays-date">Today is: </em>
+        </div>
+        <div class="social-media-links-wrapper">
+            <a class="social-media-link" href=""><img src="./images/fb_icon_325x325.png" alt="facebook icon"></a>
+            <a class="social-media-link" href=""><img src="./images/twitter_icon.png" alt="twitter icon"></a>
+        </div>
+        <nav>
+            <button id="hamburgerBtn">&#9776;</button>
+            <ul id="primaryNav">
+                <li class="active"><a href="">Home</a></li>
+                <li><a href="">Page 2</a></li>
+                <li><a href="">Page 3</a></li>
+                <li><a href="">Page 4</a></li>
+            </ul>
+        </nav>
+        <div id="banner">
+            <p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.!</p>
+        </div>
+    </header>
+    
+    <main class="discover-main">
+        <h2>Discover Beautiful Budapest</h2>
+        <em id="daysSinceLastVisist"></em>
+        <div class="discover-image-wrapper diwrapper-1">
+            <img
+            loading="lazy"
+            data-srcset="./images/discover/small/parliament-of-hungary-400w.jpg 400w, ./images/discover/medium/parliament-of-hungary-800w.jpg 800w, ./images/discover/large/parliament-of-hungary-1328w.jpg 1328w"
+            data-sizes="(max-width: 35rem) 400px, (max-width: 63rem) 800px, (min-width: 64rem) 1500px" 
+            src="./images/discover/placeholder.jpg"
+            data-src="./images/discover/large/parliament-of-hungary-1328w.jpg" alt="the hungarian parlement building">
+            <p>The Hungarian Government is a representative parlement, and is one that fully supports businesses, and is delighted to support businesses from all over the world in comming and do business in their lovely country.</p>
+        </div>
+        <div class="discover-image-wrapper diwrapper-2">
+            <img
+            loading="lazy"
+            data-srcset="./images/discover/small/statue-of-liberty-400w.jpg 400w, ./images/discover/medium/statue-of-liberty-750w.jpg 750w, ./images/discover/large/statue-of-liberty-1500w.jpg 1500w"
+            data-sizes="(max-width: 35rem) 400px, (max-width: 63rem) 800px, (min-width: 64rem) 1500px" 
+            src="./images/discover/placeholder.jpg"
+            data-src="./images/discover/large/statue-of-liberty-1500w.jpg" alt="the palm branch holding hungarian statue of liberty">
+            <p>Hungary is a democratic country of 9.71 million that values the freedom of its people dearly. The Statue of Freedom, shown here, reflects the people's deisre for peace and freedom for all the citizens she looks down upon.</p>
+        </div>
+        <div class="discover-image-wrapper diwrapper-3">
+            <img
+            loading="lazy"
+            data-srcset="./images/discover/small/chain-bridge-400w.jpg 400w, ./images/discover/medium/chain-bridge-800w.jpg 800w, ./images/discover/large/chain-bridge-1600w.jpg 1600w"
+            data-sizes="(max-width: 35rem) 400px, (max-width: 63rem) 800px, (min-width: 64rem) 1500px" 
+            src="./images/discover/placeholder.jpg"
+            data-src="./images/discover/large/chain-bridge-1600w.jpg" alt="budapest's famous szechenyi chain bridge">
+            <p>Hungarians are smart, and many world-changing innovations were first birthed in the minds of the Hungarians. The Chain Bridge here is a symbol of their engineering prowess and dedication to practical beauty.</p>
+        </div>
+        <div class="discover-image-wrapper diwrapper-4">
+            <img
+            loading="lazy"
+            data-srcset="./images/discover/small/elte-library-500w.jpg 500w,  ./images/discover/large/elte-library-1000w.jpg 1000w"
+            data-sizes="(max-width: 35rem) 500px, (min-width: 36rem) 1000px"
+            src="./images/discover/placeholder.jpg"
+            data-src="./images/discover/large/elte-library-1000w.jpg" alt="the ELTE library">
+            <p>Hungary has a long history of academia, and its best and brightest are looking for international companies to whom they can sell their talents. Here in Budapest, culture, art, intellegence, and modern technology meet in beautiful harmony.</p>
+        </div>
+        <div class="discover-image-wrapper diwrapper-5">
+            <img
+            loading="lazy"
+            data-srcset="./images/discover/small/mol-tower-541w 541w, ./images/discover/medium/mol-tower-1081w.jpg 1081w"
+            data-sizes="(max-width: 35rem) 540, (min-width: 36rem) 1000px"
+            src="./images/discover/placeholder.jpg"
+            data-src="./images/discover/medium/mol-tower-1081w.jpg" alt="Hungary's tallest building in 2023: the MOL tower">
+            <p>This is the MOL tower, or the MOL Campus, found in Southern Budapest in the Infopark. Budapest is filled with areas looking for new business to move in and work with, just like this neighborhood. What are you waiting for?</p>
+        </div>
+    </main>
+    <footer>
+        <img class="logo" src="./images/chamber-of-commerce.webp" alt="seal of the Budapest Chamber of Commerce">
+        <div class="footer-text">
+            <p>
+                1122 Budapest Hajnóczy J. utca 14
+                <br>
+                uzletkamra@gmail.com
+                <br>
+                +36 30 822 1260
+            </p>
+        </div>
+        <hr>
+        <div class="footer-text">
+            <p class="p-inline" id="copyright"></p>
+            <p class="p-inline">    |   Thomas Montoya   |   WWD 230 Project</p>
+            <p id="last-modified">Last Modified: </p>
+        </div>
+    </footer>
+    <script src="scripts/days-since-last-visit.js"></script>
+    <script src="scripts/lazyloading.js"></script>
+    <script src="scripts/hamburger-menu.js"></script>
+    <script src="scripts/update-dates.js"></script>
+    <script src="scripts/banner.js"></script>
+</body>
+</html>
