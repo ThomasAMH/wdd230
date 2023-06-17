@@ -5,11 +5,12 @@
         margin: auto;
         padding: 2%;
         width: 80%;
-        background-image: url("../images/large/background-large.jpg");
+        background-color: #5e5883;
+        /* background-image: url("../images/large/background-large.jpg"); */
         background-size: cover;
     }
 
-    main {
+    .index-main {
         display: grid;
         grid-template-rows: auto;
         grid-template-columns: auto;
@@ -86,5 +87,15 @@
 }
 .discover-image-wrapper img:hover {
     box-shadow: 0 0 50px 15px #2E2B40;
+}
+
+/* Join page classes */
+
+.join-form {
+    width: 60%;
+}
+
+.membership-level-description {
+    display: block;
 }
 }

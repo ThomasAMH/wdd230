@@ -16,7 +16,8 @@ body {
     margin: auto;
     padding: 2%;
     width: 80%;
-    background-image: url("../images/small/background-small.jpg");
+    background-color: #5e5883;
+    /* background-image: url("../images/small/background-small.jpg"); */
 }
 
 header, footer {
@@ -278,4 +279,84 @@ nav ul li a:hover {
     border-color: var(--main-color-2);
     border-width: 2px;
     width: 80%;
+}
+
+/* Join page styles and classes  */
+
+.join-form {
+    align-items: center;
+    background-color:  rgba(255, 255, 255, 0.795);
+    border: 2px solid var(--main-color-2);
+    display: flex;
+    flex-direction: column;
+    min-width: 44px;
+    padding: 3%;
+    width: 80%;
+}
+
+.join-form label, input {
+    align-self: stretch;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.join-form input {
+    display: block;
+    min-width: 44px;
+}
+
+.join-form button {
+    margin-top: 5%;
+    padding: 2%;
+}
+
+.join-form textarea {
+    width: 80%;
+}
+
+.join-form-wrapper {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.join-form-wrapper h2 {
+    text-align: center;
+}
+
+.membership-level {
+    padding: 3%;
+    width: 100%;
+}
+
+.membership-level-wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.membership-level-description {
+    border: solid 1px #2E2B40;
+    display: none;
+    padding: 2%;
+    margin: 1%;
+}
+
+.membership-level-description li {
+    padding: 2%;
+}
+
+.membership-level-radio {
+    padding-left: 5%;
+}
+
+.membership-level-radio input, label{
+    display: inline-block;
+}
+
+.thank-you {
+    padding-top: 15%;
+    padding-bottom: 15%;
+    text-align: center;
 }

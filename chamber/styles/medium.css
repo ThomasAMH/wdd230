@@ -5,10 +5,11 @@
         margin: auto;
         padding: 2%;
         width: 80%;
-        background-image: url("../images/medium/background-med.jpg");
+        background-color: #5e5883;
+        /* background-image: url("../images/medium/background-med.jpg"); */
     }
 
-    main {
+    .index-main {
         display: grid;
         grid-template-rows: auto;
         grid-template-columns: repeat(3, 1fr);
@@ -70,5 +71,16 @@
 
     .placeholder {
         height: auto;
+    }
+
+
+    /* Join Page */
+
+    .join-form {
+        width: 80%;
+    }
+
+    .membership-level-description {
+        display: block;
     }
 }
