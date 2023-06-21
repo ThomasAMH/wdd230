@@ -1,0 +1,104 @@
+{
+    "businesses":
+    [
+        {
+            "name":"dōTERRA Europe Services",
+            "address":"Budapest, Garda utca 2, 1117",
+            "contactPerson": "Thomas Montoya",
+            "phonenumber":"(06 1) 701 2250",
+            "url": "https://hu.linkedin.com/company/doterra-europe-services-hungary",
+            "image": "./images/directory/doterra.jpg",
+            "membership level": "Silver",
+            "businessType": "International multi-level marketing essential oil company",
+            "EstIn": "2011"
+        },
+        {
+            "name":"Ostorházi Bevonattechnika Kft.",
+            "address":"Százhalombatta, Iparos u. 13, 2440",
+            "contactPerson": "Miklos",
+            "phonenumber":"(06 23) 521 100",
+            "url": "https://bevonattechnika.hu/",
+            "image":"./images/directory/ostorhazy.jpg",
+            "membership level": "bronze",
+            "businessType": "Domestic airbrushing service",
+            "EstIn":"1991"
+        },
+        {
+            "name":"Lipóti Bakeries",
+            "address":"9233 Lipót, Fő u. 58.",
+            "contactPerson":"Company Receptionist",
+            "phonenumber":"06 30 487 06 53",
+            "url":"https://lipotipekseg.hu/",
+            "image":"./images/directory/lipoti.png",
+            "membership level": "bronze",
+            "businessType": "Domestic bakery chain",
+            "EstIn":"1992"
+        },
+        {
+            "name":"Univer Group",
+            "address":"1138 Budapest, Váci út 121-127.",
+            "contactPerson": "(see website)",
+            "phonenumber":"(see website)",
+            "url": "https://www.univer.hu/hu/univer_csoport",
+            "image":"./images/directory/univer-logo.svg",
+            "membership level":"bronze",
+            "businessType":"Domestic food and condiment business",
+            "EstIn":"1948"
+        },
+        {
+            "name":"Wizz Air Hungary Ltd.",
+            "address":"1103 Budapest, Kőér u 2/A",
+            "contactPerson": "(see website)",
+            "phonenumber":"(see website)",
+            "url":"https://wizzair.com/en-gb/",
+            "image":"./images/directory/wizz-logo.jpg",
+            "membership level": "bronze",
+            "businessType":"International Hungarian budget airline",
+            "EstIn":"2003"
+        },
+        {
+            "name":"Edi Nails",
+            "address":"1066 Budapest, Mozsár Street 6.",
+            "contactPerson": "Edit",
+            "phonenumber":"+ 36 70 363 8467",
+            "url":"https://edinails.hu/en/kezdolap-angol/",
+            "image":"./images/directory/nails.png",
+            "membership level":"gold",
+            "businessType": "Local nail salon",
+            "EstIn":"2007"
+        },
+        {
+            "name":"Mammut Mall",
+            "address":"1024 Budapest, Lövőház u. 2-6",
+            "contactPerson": "(see website)",
+            "phonenumber":"(06 1) 345 8020",
+            "url":"https://mammut.hu/",
+            "image":"./images/directory/mammut.png",
+            "membership level":"gold",
+            "businessType":"Shopping Center",
+            "EstIn": "2001"
+        },
+        {
+            "name":"Zingburger Kft.",
+            "address":"(multiple)",
+            "contactPerson": "(see website)",
+            "phonenumber":"(see website)",
+            "url":"https://www.zingburger.hu/",
+            "image":"./images/directory/zing_logo.png",
+            "membership level":"silver",
+            "businessType":"Hungarian burger franchise",
+            "EstIn":"2013"
+        },
+        {
+            "name":"IBM",
+            "address":"1083 Budapest, Szigony utca 26-32",
+            "contactPerson": "(see website)",
+            "phonenumber":"(see website)",
+            "url":"https://www.ibm.com/planetwide/hu/",
+            "image":"./images/directory/ibm.png",
+            "membership level":"gold",
+            "businessType":"International technical research company",
+            "EstIn":"1911"
+        }
+    ]
+}

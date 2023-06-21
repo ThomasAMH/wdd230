@@ -360,3 +360,40 @@ nav ul li a:hover {
     padding-bottom: 15%;
     text-align: center;
 }
+
+/* Directory Cards */
+
+.directory-main {
+    background-color: rgba(255, 255, 255, .75);
+    padding: 3%;
+}
+
+.directory-wrapper {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 5%;
+}
+
+.directory-wrapper div {
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 3%;
+    border: solid 1px #2E2B40;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 80%;
+}
+
+.directory-wrapper img {
+    border: solid 1px #2E2B40;
+    display: block;
+    margin: auto;
+    max-width: 200px;
+}
+
+.directory-wrapper ul {
+    text-align: left;
+}
