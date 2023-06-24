@@ -35,7 +35,7 @@ function displaybusiness(directoryData) {
         let phoneNumber = document.createElement('li');
 
         // Add card styles
-        card.setAttribute("class", "card");
+        card.setAttribute("class", "card-tile");
         companyName.textContent = business.name;
         est.textContent = `Est: ${business.EstIn}`;
         typeOfBusiness.textContent = `Business Type: ${business.businessType}`;

@@ -397,3 +397,12 @@ nav ul li a:hover {
 .directory-wrapper ul {
     text-align: left;
 }
+
+.card-list div {
+    width: 100%;
+}
+
+.card-list img, .card-list em, .card-list a, .card-list ul, .card-list p {
+    display: none;
+}
+
