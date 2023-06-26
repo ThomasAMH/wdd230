@@ -106,6 +106,14 @@ nav ul li a:hover {
 }
 
 
+.tagline {
+    font-size: .8em;
+}
+
+.date {
+    font-size: .5em;
+}
+
 /* .event {
 
 } */
@@ -228,7 +236,7 @@ nav ul li a:hover {
     flex-direction: column;
     justify-content: center;
     margin: 1%;
-    padding: 3%;
+    padding: 2%;
     text-align: center;
 }
 
@@ -248,6 +256,7 @@ nav ul li a:hover {
 
 #todays-date {
     padding: 1vw;
+    font-size: 1em;
 }
 
 /* Discover Page Classes */
