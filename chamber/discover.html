@@ -15,7 +15,7 @@
 
 <body>
     <header>
-        <a class="logo-link" href=""><img src="./images/chamber-of-commerce.webp" alt="seal of the Budapest Chamber of Commerce"></a>
+        <a class="logo-link" href="./index.html"><img src="./images/chamber-of-commerce.webp" alt="seal of the Budapest Chamber of Commerce"></a>
         <div class="header-and-date">
             <h1>Budapest Chamber of Commerce</h1>
             <em>Serving Budapest's Finest</em>
@@ -32,6 +32,7 @@
                 <li class="active"><a href="./discover.html">Discover</a></li>
                 <li><a href="./join.html">Join Us</a></li>
                 <li><a href="./directory.html">Our Members</a></li>
+                <li><a href="./contact.html">Contact Us</a></li>
             </ul>
         </nav>
         <div id="banner">
@@ -41,12 +42,11 @@
     
     <main class="discover-main">
         <h2>Discover Beautiful Budapest</h2>
-        <button id="toggle-discovery-view">Switch to List View</button>
         <em id="daysSinceLastVisist"></em>
         <div class="discover-image-wrapper diwrapper-1">
             <img
             loading="lazy"
-            data-srcset="./images/discover/small/parliament-of-hungary-400w.jpg 400w, ./images/discover/medium/parliament-of-hungary-800w.jpg 800w, ./images/discover/large/parliament-of-hungary-1328w.jpg 1328w"
+            data-srcset="./images/discover/small/parliament-of-hungary-400w.jpg 400w, ./images/discover/medium/parliament-of-hungary-800w.jpg 800w"
             data-sizes="(max-width: 35rem) 400px, (max-width: 63rem) 800px, (min-width: 64rem) 1500px" 
             src="./images/discover/placeholder.jpg"
             data-src="./images/discover/large/parliament-of-hungary-1328w.jpg" alt="the hungarian parlement building">
@@ -55,7 +55,7 @@
         <div class="discover-image-wrapper diwrapper-2">
             <img
             loading="lazy"
-            data-srcset="./images/discover/small/statue-of-liberty-400w.jpg 400w, ./images/discover/medium/statue-of-liberty-750w.jpg 750w, ./images/discover/large/statue-of-liberty-1500w.jpg 1500w"
+            data-srcset="./images/discover/small/statue-of-liberty-400w.jpg 400w, ./images/discover/medium/statue-of-liberty-750w.jpg 750w"
             data-sizes="(max-width: 35rem) 400px, (max-width: 63rem) 800px, (min-width: 64rem) 1500px" 
             src="./images/discover/placeholder.jpg"
             data-src="./images/discover/large/statue-of-liberty-1500w.jpg" alt="the palm branch holding hungarian statue of liberty">
@@ -64,8 +64,8 @@
         <div class="discover-image-wrapper diwrapper-3">
             <img
             loading="lazy"
-            data-srcset="./images/discover/small/chain-bridge-400w.jpg 400w, ./images/discover/medium/chain-bridge-800w.jpg 800w, ./images/discover/large/chain-bridge-1600w.jpg 1600w"
-            data-sizes="(max-width: 35rem) 400px, (max-width: 63rem) 800px, (min-width: 64rem) 1500px" 
+            data-srcset="./images/discover/small/chain-bridge-400w.jpg 400w, ./images/discover/medium/chain-bridge-650w.jpg 650w"
+            data-sizes="(max-width: 35rem) 400px, (max-width: 63rem) 800px" 
             src="./images/discover/placeholder.jpg"
             data-src="./images/discover/large/chain-bridge-1600w.jpg" alt="budapest's famous szechenyi chain bridge">
             <p>Hungarians are smart, and many world-changing innovations were first birthed in the minds of the Hungarians. The Chain Bridge here is a symbol of their engineering prowess and dedication to practical beauty.</p>
@@ -73,8 +73,8 @@
         <div class="discover-image-wrapper diwrapper-4">
             <img
             loading="lazy"
-            data-srcset="./images/discover/small/elte-library-500w.jpg 500w,  ./images/discover/large/elte-library-1000w.jpg 1000w"
-            data-sizes="(max-width: 35rem) 500px, (min-width: 36rem) 1000px"
+            data-srcset="./images/discover/small/elte-library-500w.jpg 500w,  ./images/discover/large/elte-library-600w.jpg 600w"
+            data-sizes="(max-width: 35rem) 500px, (min-width: 36rem) 600px"
             src="./images/discover/placeholder.jpg"
             data-src="./images/discover/large/elte-library-1000w.jpg" alt="the ELTE library">
             <p>Hungary has a long history of academia, and its best and brightest are looking for international companies to whom they can sell their talents. Here in Budapest, culture, art, intellegence, and modern technology meet in beautiful harmony.</p>
@@ -112,6 +112,5 @@
     <script src="scripts/hamburger-menu.js"></script>
     <script src="scripts/update-dates.js"></script>
     <script src="scripts/banner.js"></script>
-    <script src="scripts/toggle-discovery-view.js"></script>
 </body>
 </html>

@@ -15,7 +15,7 @@
 
 <body>
     <header>
-        <a class="logo-link" href=""><img src="./images/chamber-of-commerce.webp" alt="seal of the Budapest Chamber of Commerce"></a>
+        <a class="logo-link" href="./index.html"><img src="./images/chamber-of-commerce.webp" alt="seal of the Budapest Chamber of Commerce"></a>
         <div class="header-and-date">
             <h1>Budapest Chamber of Commerce</h1>
             <em>Serving Budapest's Finest</em>
@@ -32,6 +32,7 @@
                 <li><a href="./discover.html">Discover</a></li>
                 <li class="active"><a href="./join.html">Join Us</a></li>
                 <li><a href="./directory.html">Our Members</a></li>
+                <li><a href="./contact.html">Contact Us</a></li>
             </ul>
         </nav>
         <div id="banner">
@@ -45,22 +46,22 @@
             <em>* indicates a required field</em>
             <form class="join-form" method="get" action="thankyou.html">
                 <label for="fname">*Your First Name:</label>
-                <input type="text" name="fname" required>
+                <input type="text" id="fname" name="fname" required>
 
                 <label for="lname">*Your Last Name:</label>
-                <input type="text" name="lname" required>
+                <input type="text" id="lname" name="lname" required>
                 
                 <label for="business-title">Your Business Position:</label>
-                <input type="text" pattern="[A-Za-z \-]{7,}"  name="business-title" title="Only letters, -'s, and spaces. Min. 7 char.">
+                <input type="text" id="business-title" pattern="[A-Za-z \-]{7,}"  name="business-title" title="Only letters, -'s, and spaces. Min. 7 char.">
 
                 <label for="frmEmailA">*Your Email Address:</label>
-                <input type="email" name="frmEmailA" placeholder="your-email@email.com" required>
+                <input type="email" id="frmEmailA" name="frmEmailA" placeholder="your-email@email.com" required>
 
                 <label for="phone-num">*Your Cell Phone Number:</label>
-                <input type="tel" name="phone-num" required>
+                <input type="tel" id="phone-num" name="phone-num" required>
                 
                 <label for="business-name">Your Business' Name:</label>
-                <input type="text" name="business-name">
+                <input type="text" id="business-name" name="business-name">
                 
                 <div class="membership-level-wrapper">
                     <div class="membership-level">
@@ -94,7 +95,7 @@
                 </div>
                     
                     <label for="business-description">Briefly Describe Your Business:</label>
-                    <textarea name="business-description" cols="50" rows="3"></textarea>
+                    <textarea id="business-description" name="business-description" cols="50" rows="3"></textarea>
                 
                 <input type="hidden">
                 

@@ -415,3 +415,28 @@ nav ul li a:hover {
     display: none;
 }
 
+.contact-page-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.contact-form-wrapper, .contact-form {
+    padding: 5%;
+    width: 80%;
+}
+
+.contact-form textarea, input, label {
+    display: block;
+    margin-top: 2%;
+}
+
+.contact-form textarea {
+    min-width: 40px;
+    width: 80%;
+}
+
+.contact-form button {
+    margin-top: 3%;
+    width: 33%;
+}

@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
-    <title>Budapest Chamber of Commerce - Home</title>
-    <meta name="description" content="The homepage for the Budapest Chamber of Commerce">
+    <title>Contact - Budapest Chamber of Commerce</title>
+    <meta name="description" content="How to contact the Budapest Chamber of Commerce">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="shortcut icon" href="./images/favicon.ico">
     <link rel="stylesheet" href="./styles/base.css">
@@ -18,7 +18,7 @@
         <a class="logo-link" href="./index.html"><img src="./images/chamber-of-commerce.webp" alt="seal of the Budapest Chamber of Commerce"></a>
         <div class="header-and-date">
             <h1>Budapest Chamber of Commerce</h1>
-            <em class="tagline">Serving Budapest's Finest</em>
+            <em>Serving Budapest's Finest</em>
             <em id="todays-date">Today is: </em>
         </div>
         <div class="social-media-links-wrapper">
@@ -28,11 +28,11 @@
         <nav>
             <button id="hamburgerBtn">&#9776;</button>
             <ul id="primaryNav">
-                <li class="active"><a href="./index.html">Home</a></li>
+                <li><a href="./index.html">Home</a></li>
                 <li><a href="./discover.html">Discover</a></li>
                 <li><a href="./join.html">Join Us</a></li>
                 <li><a href="./directory.html">Our Members</a></li>
-                <li><a href="./contact.html">Contact Us</a></li>
+                <li class="active"><a href="./contact.html">Contact Us</a></li>
             </ul>
         </nav>
         <div id="banner">
@@ -40,46 +40,34 @@
         </div>
     </header>
     
-    <main class="index-main">
-        <div class="hero tile">
-            <h2>You're the one we've been waiting for!</h2>
-            <img src="./images/business.jpg" alt="people with hands on top of each other's hands">
-            <h2>Get involved today!</h2>
-        </div>
-        <div class="event tile">
-                <h2>July 4th, 2023</h2>
+    <main>
+        <div class="contact-page-wrapper">
+            <section class="contact-form-wrapper">
+                <h2>Contact Information</h2>
+                <hr>
+                <span><strong>Contact Person: </strong>Mr. Montoya</span>
                 <br>
-                <h3>Event: American business partners day!</h3>
-                <br>
-                <p>Come meet with businesspeople from the United States who are interested in international partnerships!</p>
+                <span><strong>Availablity: </strong>9:00 a.m. to 5:00 p.m. on non-holiday weekdays</span>
+                <ul>
+                    <li><strong>Phone: </strong>+36 30 688 9855</li>
+                    <li><strong>WhatsApp: </strong>+36 30 100 2950</li>
+                    <li><strong>Email: </strong> uzletkamra@gmail.com</li>
+                </ul>
+            </section>
+            <form class="contact-form" method="get" action="thankyou.html">
+                <label for="fname">*Your First Name:</label>
+                <input id="fname" type="text" name="fname" required>
+                
+                
+                <label for="frmEmailA">*Your Email Address:</label>
+                <input id="frmEmailA" type="email" name="frmEmailA" placeholder="your-email@email.com" required>
+                
+                <label for="business-description">*Your inquery</label>
+                <textarea id="business-description" name="business-description" cols="50" rows="3" required></textarea>
+                <button type="submit">Send</button>
+            </form>
         </div>
-        <div class="weather tile">
-            <h3 id="weatherStatus"></h3>
-            <em id="weatherDetails"></em>
-            <img id="weatherIcon">
-            <p>Temperature: <span id="temp"></span>° C</p>
-            <p>Wind Speed: <span id="windspeed"></span> kmph</p>
-            <p>Windchill: <span id="windchill"></span></p>
-        </div>
-        <div class="news tile">
-            <h2>New in Town: Meateaters BBQ raises the stake for Budapest BBQ</h2>
-            <p>New restaurant offering free appetizers to BCoC members!</p>
-            <img src="./images/bbq.jpg" alt="man cooking meat on grill">
-        </div>
-        <div class="spotlight-wrapper tile">
-            <!-- Handled by JS -->
-            <h2>Business Spotlights</h2>
-            <div class="spotlight-1">
-            </div>
-            <div class="spotlight-2">
-            </div>
-        </div>
-        <div class="join tile">
-            <h3>Interested in joining?</h3>
-            <em>We'd love to have you!</em>
-            <p>You'll find the information you need to join <a href="./join.html">here</a>.</p>
-        </div>
-    </main>
+        </main>
     <footer>
         <img class="logo" src="./images/chamber-of-commerce.webp" alt="seal of the Budapest Chamber of Commerce">
         <div class="footer-text">
@@ -90,7 +78,6 @@
                 <br>
                 +36 30 822 1260
             </p>
-            <p>Weather information provided by: OpenWeatherMap</p>
         </div>
         <hr>
         <div class="footer-text">
@@ -99,10 +86,8 @@
             <p id="last-modified">Last Modified: </p>
         </div>
     </footer>
-    <script src="scripts/responsive-spotlight.js"></script>
     <script src="scripts/hamburger-menu.js"></script>
     <script src="scripts/update-dates.js"></script>
     <script src="scripts/banner.js"></script>
-    <script src="scripts/weather.js"></script>
 </body>
 </html>

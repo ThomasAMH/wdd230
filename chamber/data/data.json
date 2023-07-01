@@ -8,7 +8,7 @@
             "phonenumber":"(06 1) 701 2250",
             "url": "https://hu.linkedin.com/company/doterra-europe-services-hungary",
             "image": "./images/directory/doTERRA.jpg",
-            "membership level": "Silver",
+            "membershipLevel": "silver",
             "businessType": "International multi-level marketing essential oil company",
             "EstIn": "2011"
         },
@@ -19,7 +19,7 @@
             "phonenumber":"(06 23) 521 100",
             "url": "https://bevonattechnika.hu/",
             "image":"./images/directory/ostorhazy.jpg",
-            "membership level": "bronze",
+            "membershipLevel": "bronze",
             "businessType": "Domestic airbrushing service",
             "EstIn":"1991"
         },
@@ -30,7 +30,7 @@
             "phonenumber":"06 30 487 06 53",
             "url":"https://lipotipekseg.hu/",
             "image":"./images/directory/lipoti.png",
-            "membership level": "bronze",
+            "membershipLevel": "bronze",
             "businessType": "Domestic bakery chain",
             "EstIn":"1992"
         },
@@ -41,7 +41,7 @@
             "phonenumber":"(see website)",
             "url": "https://www.univer.hu/hu/univer_csoport",
             "image":"./images/directory/univer-logo.svg",
-            "membership level":"bronze",
+            "membershipLevel":"bronze",
             "businessType":"Domestic food and condiment business",
             "EstIn":"1948"
         },
@@ -52,7 +52,7 @@
             "phonenumber":"(see website)",
             "url":"https://wizzair.com/en-gb/",
             "image":"./images/directory/wizz-logo.jpg",
-            "membership level": "bronze",
+            "membershipLevel": "bronze",
             "businessType":"International Hungarian budget airline",
             "EstIn":"2003"
         },
@@ -63,7 +63,7 @@
             "phonenumber":"+ 36 70 363 8467",
             "url":"https://edinails.hu/en/kezdolap-angol/",
             "image":"./images/directory/nails.png",
-            "membership level":"gold",
+            "membershipLevel":"gold",
             "businessType": "Local nail salon",
             "EstIn":"2007"
         },
@@ -74,7 +74,7 @@
             "phonenumber":"(06 1) 345 8020",
             "url":"https://mammut.hu/",
             "image":"./images/directory/mammut.png",
-            "membership level":"gold",
+            "membershipLevel":"gold",
             "businessType":"Shopping Center",
             "EstIn": "2001"
         },
@@ -85,7 +85,7 @@
             "phonenumber":"(see website)",
             "url":"https://www.zingburger.hu/",
             "image":"./images/directory/zing_logo.png",
-            "membership level":"silver",
+            "membershipLevel":"silver",
             "businessType":"Hungarian burger franchise",
             "EstIn":"2013"
         },
@@ -96,7 +96,7 @@
             "phonenumber":"(see website)",
             "url":"https://www.ibm.com/planetwide/hu/",
             "image":"./images/directory/ibm.png",
-            "membership level":"gold",
+            "membershipLevel":"gold",
             "businessType":"International technical research company",
             "EstIn":"1911"
         }
