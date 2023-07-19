@@ -1,0 +1,70 @@
+@media only screen and (min-width: 750px) {
+ 
+nav ul {
+    display: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
+
+nav {
+    margin: 5px;
+    border: 1px solid black;
+}
+
+nav button {display: none;}
+
+nav ul li a {
+    padding: .5rem 1rem;
+}
+
+nav button {display: none;}
+    
+nav ul#primaryNav {
+    display: flex;
+    border-left: 1px solid black;
+}
+
+nav ul li a {
+    border: none;
+    border-right: 1px solid black;
+}
+
+.home-element-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 3%;
+    text-align: center;
+    width: 100%;
+}
+
+.home-element-text {
+    margin-left: 3%;
+}
+
+.home-section-2 .home-element-text{
+    background-color: var(--accent-color-1);
+    order: 0;
+}
+
+.home-section-2 img {
+    min-width: 300px;
+}
+
+.home-element-3-img {
+    min-width: 350px;
+}
+
+/* Fresh form class and data*/
+
+.fresh-drink-form-wrapper, .fresh-form-results-wrapper {   
+    max-width: 500px;
+    margin: auto;
+}
+#home-weather-wrapper {
+    width: 100%;
+}
+}

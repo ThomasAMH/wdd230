@@ -1,0 +1,14 @@
+{
+    "Total_Fat" : "g",
+    "Cholesterol" : "mg",
+    "Sodium" : "mg",
+    "Total_Carbohydrate" : "g",
+    "Dietary_Fiber" : "g",
+    "Total_Sugar" : "g",
+    "Protein" : "g",
+    "Vitamin_C" : "% recomennded daily value",
+    "Vitamin_D" : "% recomennded daily value",
+    "Potassium" : "mg",
+    "Iron" : "% recomennded daily value",
+    "Calcium" : "% recomennded daily value"
+}

@@ -1,5 +1,5 @@
 let d = new Date();
-document.querySelector(".copyright_info").innerHTML = `&#169; ${d.getFullYear()} - Thomas Montoya`;
+document.getElementById("copyright_info").innerHTML = `&#169; ${d.getFullYear()} - Thomas Montoya`;
 
 d = new Date(document.lastModified);
 const options = {

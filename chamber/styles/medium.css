@@ -15,19 +15,23 @@
         grid-template-columns: repeat(3, 1fr);
     }
 
-    nav ul {
-        display: none;
-        list-style-type: none;
-        padding: 0;
-        margin: 0;
-        text-align: center;
-        width: 100%;
+    nav {
+        margin: 5px;
+        border: 1px solid #c68335;
     }
 
+    nav button {display: none;}
+
     nav ul li a {
-        border: none;
-        border-right: 1px solid #c68335;
+        padding: .5rem 1rem;
     }
+
+    nav button {display: none;}
+        
+    nav ul#primaryNav {
+        display: flex;
+        bor
+
     .logo-link {
         text-decoration: none;
         width: 250px;
